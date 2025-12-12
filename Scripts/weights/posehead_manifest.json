@@ -1,0 +1,42 @@
+{
+  "model": "pose_landmark_full.tflite",
+  "weights_dir": "weights",
+  "heads": {
+    "pose3d": {
+      "w_fp32": "pose3d_w_fp32.npy",
+      "w_q15": "pose3d_w_q15.npy",
+      "b_fp32": "pose3d_b_fp32.npy",
+      "b_q15": "pose3d_b_q15.npy",
+      "out_ch": 195,
+      "in_ch": 1152,
+      "kernel": [
+        2,
+        2
+      ]
+    },
+    "world": {
+      "w_fp32": "world_w_fp32.npy",
+      "w_q15": "world_w_q15.npy",
+      "b_fp32": "world_b_fp32.npy",
+      "b_q15": "world_b_q15.npy",
+      "out_ch": 117,
+      "in_ch": 1152,
+      "kernel": [
+        2,
+        2
+      ]
+    },
+    "flag": {
+      "w_fp32": "flag_w_fp32.npy",
+      "w_q15": "flag_w_q15.npy",
+      "b_fp32": "flag_b_fp32.npy",
+      "b_q15": "flag_b_q15.npy",
+      "out_ch": 1,
+      "in_ch": 1152,
+      "kernel": [
+        2,
+        2
+      ]
+    }
+  }
+}

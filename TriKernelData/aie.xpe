@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<POWERDATA data="AI-Engine Compiler" dataVersion="" design="graph" date="Sun Dec  7 22:09:57 2025
+">
+ <DEVICE part="xcvc1902" grade="extended" package="vsvd1760" speed="-2MP" process="typical" vid="No"></DEVICE>
+  <AIE status="COMPILER_OUTPUT">
+    <AIE_MODULE name="graph" num_tiles="5" clk_freq="1250">
+      <TILE name="CR(17,0)" type="none" int_core_load="0" fp_core_load="0" mem_banks="6" mem_rw_rate="0.2" stream_util="0.038" coordinates="17,1">
+      </TILE>
+      <TILE name="CR(18,0)" type="int16" int_core_load="0.6" fp_core_load="0" mem_banks="0" mem_rw_rate="0.2" stream_util="0.12" coordinates="18,1">
+        <KERNEL name="i11"  int_core_load="1" fp_core_load="0"></KERNEL>
+      </TILE>
+      <TILE name="CR(26,0)" type="int16" int_core_load="0.6" fp_core_load="0" mem_banks="6" mem_rw_rate="0.2" stream_util="0.12" coordinates="26,1">
+        <KERNEL name="i9"  int_core_load="1" fp_core_load="0"></KERNEL>
+      </TILE>
+      <TILE name="CR(34,0)" type="int16" int_core_load="0.6" fp_core_load="0" mem_banks="0" mem_rw_rate="0.2" stream_util="0.12" coordinates="34,1">
+        <KERNEL name="i10"  int_core_load="1" fp_core_load="0"></KERNEL>
+      </TILE>
+      <TILE name="CR(34,1)" type="none" int_core_load="0" fp_core_load="0" mem_banks="6" mem_rw_rate="0.2" stream_util="0.038" coordinates="34,2">
+      </TILE>
+      <SHIM name="SHIM(18, 0)" type="AIE_PL_NOC_SHIM" stream_util="0.13" num_pl_streams="0" num_aximm_connections="1" coordinates="18,0"></SHIM>
+      <SHIM name="SHIM(26, 0)" type="AIE_PL_NOC_SHIM" stream_util="0.13" num_pl_streams="0" num_aximm_connections="1" coordinates="26,0"></SHIM>
+      <SHIM name="SHIM(34, 0)" type="AIE_PL_NOC_SHIM" stream_util="0.13" num_pl_streams="0" num_aximm_connections="1" coordinates="34,0"></SHIM>
+    </AIE_MODULE>
+  </AIE>
+</POWERDATA>
